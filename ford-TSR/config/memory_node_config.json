@@ -1,0 +1,17 @@
+{
+  "local_memory_node": {
+    "machine_num": 3,
+    "machine_id": 2,
+    "local_port": 12346,
+    "local_meta_port": 12347,
+    "use_pm": 0,
+    "mem_size_GB": 128,
+    "log_buf_size_GB": 1,
+    "pm_root": "/mnt/pmem0",
+    "workload": "MICRO"
+  },
+  "remote_compute_nodes": {
+    "compute_node_ips": ["192.168.1.83"],
+    "compute_node_ports": [12345]
+  }
+}
